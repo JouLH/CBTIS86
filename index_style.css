@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 10px;
+  }
+div#general{
+	font-family: "Broadway";
+	font-size: 50px;
+	width: 800px;
+	background: #81ecec;	
+}
+div#parrafo{
+	font-size: 25px;
+	font-family: "Arial";
+	width: 800px;
+	height: 600px;
+	background-color: white;	
+	background-image:url('Imagenes/DGETI.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: center center; 
+}
+div#imagenes{
+	font-family: "Arial";
+	font-size: 25px;
+	width: 800px;
+	background: #81ecec;	
+}
+div#ver{
+	font-family: "Arial";
+	font-size: 25px;
+	width: 800px;
+	height: 100%;
+	background-color: white;	
+}
+div#complemento{
+	font-family: "Arial";
+	 font-size: 25px;
+	width: 800px;
+	height: 50%;
+	background-color: white;	
+}
+div#masinfo{
+	font-family: "Arial";
+	 font-size: 25px;
+	width: 800px;
+	background-color: white;	
+}
+
+
+
+
+
+
+
+
+

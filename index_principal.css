@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 5px;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+div# principal{
+	font-family: "Broadway";
+	font-size: 50px;
+	width: 800px;
+	background: #81ecec;
+}
+body{
+	background-color:  #58B19F;
+	
+}
+.navegacion{
+	widht: 1000px; 
+	background: #fff;
+	margin: 30px auto;	
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li {
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;	
+	color: #353535;
+	font-family: "Open sans";
+	text-decoration: none;
+}
+.menu li a: hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0; 
+	transition: opacity 1.5s;
+	
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: "Open sans";
+	font-size: "500px";
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.slider{
+	width: 40%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	padding: 0%;
+	display: flex;
+	width: 400%;
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+	
+}
+.slider li{
+	list-style:none;
+	width: 100%;
+}
+.slider img{
+	width: 100%
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+div#general{
+	font-family: "Broadway";
+	font-size: 50px;
+	width: 800px;
+	background: #81ecec
+}
+div#parrafo{
+	font-size: 25px;
+	font-family: "Arial";
+	width: 800px;
+	height: 600px;
+	background-color: white;	
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: center center; 
+}
+div#masinfo{
+	font-family: "Arial";
+	 font-size: 25px;
+	width: 800px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
